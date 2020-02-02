@@ -1,0 +1,1 @@
+add_executable(ClientApplication ClientApplication/main.cpp)
