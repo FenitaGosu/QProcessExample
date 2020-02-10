@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.15)
 
-project("QProcessTest")
+project(QProcess)
 
 set(CMAKE_CXX_STANDARD 17)
 
-include(ClientApplication/ClientApplication.cmake)
-include(ServerApplication/ServerApplication.cmake)
+add_subdirectory(Client)
+add_subdirectory(Server)
